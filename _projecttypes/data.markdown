@@ -1,5 +1,5 @@
 ---
-layout: projects_green
+layout: projects_data
 title: "wrangling data"
 description: "learning python and all things web development"
 permalink: /projects/data
