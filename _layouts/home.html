@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+
+          <img
+            src="{{ page.profile_picture.src | absolute_url }}"
+            alt="{{ page.profile_picture.alt }}"
+            class="profilepic"/>
+
+          <div class="word">
+            <span>h</span>
+            <span>e</span>
+            <span>l</span>
+            <span>l</span>
+            <span>o</span>
+            <span>!</span>
+ 
+ 
+         </div>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+    <script src="/assets/js/bouncy_text.js">          </script>   
+  </body>
+</html>

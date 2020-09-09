@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="project">
+          <h1 class="page-heading"></h1>
+          {{ content }}
+         </div> 
+         <div class="project-portfolio">
+
+          {% for project in site.projecttypes %}
+          <div class="project-portfolio__item">
+            <a href = "{{site.baseurl}}/projects/{{project.slug}}" class = "{% if page.url contains project.slug %} current {%endif %}"> 
+            <h2 class="project-portfolio__item-text">
+              <strong>{{ project.title }}</strong>
+
+            </h3>
+            <img
+              src="{{ project.image_path }}"
+              alt="{{ project.title}}"
+              class="project-portfolio__item-img"
+            />
+            </a>
+          </div> 
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>

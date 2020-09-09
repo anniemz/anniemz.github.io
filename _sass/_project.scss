@@ -1,0 +1,22 @@
+
+.project-portfolio{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.project-portfolio__item{
+	color:red ;
+	text-decoration: none;
+}
+.project-portfolio__item-text{
+	 text-align: center;
+}
+
+.project-portfolio__item-img{
+	object-fit: cover;
+	width: 100%;
+	height: 250px;
+	box-shadow: 0.25em 0.25em 0.75em rgba(0, 0,0, 0.25),
+		 0.125em 0.125em 0.25em rgba(0, 0,0, 0.15);
+
+}

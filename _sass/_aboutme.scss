@@ -1,0 +1,12 @@
+
+.aboutme-heading {
+  font-size: 50px;
+  letter-spacing: -1px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: $base-font-family;
+
+  @include media-query($on-mobile) {
+    font-size: 34px;
+  }
+}
