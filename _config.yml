@@ -60,9 +60,6 @@ footer:
 
 
 # Build settings
-theme: bay_jekyll_theme
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
