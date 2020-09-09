@@ -22,7 +22,6 @@ title: "[unc]annie"
 email: hello@uncannie.me
 description: >- # this means to ignore newlines until "baseurl:"
   Noodles, doodles, projects
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header:
@@ -48,8 +47,8 @@ footer:
   show_powered_by: false
   contact:
     - name: Email
-      value: hello@annie.me
-      link: mailto:hello@annie.me
+      value: hello@uncannie.me
+      link: mailto:hello@uncannie.me
 
   follow:
     - name: LinkedIn
