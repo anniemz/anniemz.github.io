@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Annie's Portfolio Website
-email: hello@annie.me
+title: "[unc]annie"
+email: hello@uncannie.me
 description: >- # this means to ignore newlines until "baseurl:"
   Noodles, doodles, projects
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "anniemz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 header:
   pages:
