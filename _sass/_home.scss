@@ -3,7 +3,8 @@
 .word {
   font-family: 'Anton', sans-serif;
   perspective: 1000px; 
-  padding-left: 50px;
+  padding-left: 10px;
+  padding-right: 30px;
   float: right;
   }
 
@@ -14,12 +15,12 @@
 }
 
 .word span:nth-child(1).active {
-  animation:  1.5s ease-out;
+  animation: balance 1.5s ease-out;
   transform-origin: bottom left;
   color: $grey-color-dark 
 }
 
-@keyframes balance {
+//@keyframes balance {
   0%, 100% {
     transform: rotate(0deg);
   }
@@ -36,7 +37,7 @@
 
 }
 
-@keyframes shrinkjump {
+//@keyframes shrinkjump {
   10%, 35% {
     transform: scale(2, .2) translate(0, 0);
   }
@@ -56,7 +57,7 @@
   color: $grey-color-dark
 }
 
-@keyframes falling {
+//@keyframes falling {
   12% {
     transform: rotateX(240deg);
   }
@@ -87,7 +88,7 @@
   color: $grey-color-dark
 }
 
-@keyframes rotate {
+//@keyframes rotate {
   20%, 80% {
     transform: rotateY(180deg);
   }
@@ -102,7 +103,7 @@
   color: $grey-color-dark
 }
 
-@keyframes toplong {
+//@keyframes toplong {
   10%, 40% {
     transform: translateY(-48vh) scaleY(1);
   }
