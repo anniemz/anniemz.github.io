@@ -14,7 +14,7 @@
 }
 
 .word span:nth-child(1).active {
-  animation: balance 1.5s ease-out;
+  animation:  1.5s ease-out;
   transform-origin: bottom left;
   color: $grey-color-dark 
 }
@@ -30,7 +30,7 @@
 }
 
 .word span:nth-child(2).active {
-  animation: shrinkjump 1s ease-in-out;
+  animation:  1s ease-in-out;
   transform-origin: bottom center;
   color: $grey-color-dark
 
@@ -51,7 +51,7 @@
 }
 
 .word span:nth-child(3).active {
-  animation: falling 2s ease-out;
+  animation: 2s ease-out;
   transform-origin: bottom center;
   color: $grey-color-dark
 }
@@ -83,7 +83,7 @@
 }
 
 .word span:nth-child(4).active {
-  animation: rotate 1s ease-out;
+  animation:  1s ease-out;
   color: $grey-color-dark
 }
 
@@ -98,7 +98,7 @@
 }
 
 .word span:nth-child(5).active {
-  animation: toplong 1.5s linear;
+  animation:  1.5s linear;
   color: $grey-color-dark
 }
 
